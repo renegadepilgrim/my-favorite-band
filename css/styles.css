@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: arial;
+}
+
+p {
+  margin: 0 auto;
+  font-family: arial;
+  border: 4px solid tomato;
+  padding: 2px 4px 2px 4px;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin: 100px auto;
+  width:250px;
+  height: 250px;
+  padding: 10px;
+  border: 4px solid black;
+}
+
+.tour,.merchandise {
+  width: 50%;
+  float: left;
+}
+
+.tour li {
+  font-size: 32px;
+  list-style: none;
+}
+
+.merchandise li {
+  font-size: 32px;
+  color: tomato;
+}
+
+.merchandise li a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.merchandise li a:hover {
+  color: purple;
+}
